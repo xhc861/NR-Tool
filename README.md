@@ -1,40 +1,38 @@
 # NR-Tool
-这是一个可以管理你所有服务器（虚拟主机）的的好帮手，可选GUI。
+
+这是一个可以管理你所有服务器（虚拟主机）的好帮手，可选GUI。
+
 This tool can manage all your servers (including web hosting) and comes with a GUI.
+
 <div id="top"></div>
 
 <br />
+
 <div align="center">
   <a href="https://github.com/xhc861/NR-Tool">
-    <img src=".NR/NR-Tool.png" alt="Logo" width="80" height="80">
+    <img alt=".NR/NR-Tool." width="80" height="80">
   </a>
 
-  <h3 align="center">Best-README-Template-zh</h3>
+  <h3 align="center">NR-Tool</h3>
 
   <p align="center">
-    让你快速开始构建项目的最佳 README 模板！
-    <br />
-    <a href="https://github.com/othneildrew/Best-README-Template"><strong>浏览文档 »</strong></a>
+    高效能、高可利用性、开源的一站式服务资源管理工具
     <br />
     <br />
-    <a href="https://github.com/othneildrew/Best-README-Template">查看 Demo</a>
-    ·
-    <a href="https://github.com/othneildrew/Best-README-Template/issues">反馈 Bug</a>
-    ·
-    <a href="https://github.com/othneildrew/Best-README-Template/issues">请求新功能</a>
+    <a href="https://github.com/xhc861/NR-Tool/issues">反馈 Bug</a> ·
+    <a href="https://github.com/xhc861/NR-Tool/issues">请求新功能</a>
   </p>
 </div>
 
-
-
 <!-- 目录 -->
+
 <details>
   <summary>目录</summary>
   <ol>
     <li>
       <a href="#关于本项目">关于本项目</a>
       <ul>
-        <li><a href="#构建工具">构建工具</a></li>
+        <li><a href="#开发语言">开发语言</a></li>
       </ul>
     </li>
     <li>
@@ -49,182 +47,128 @@ This tool can manage all your servers (including web hosting) and comes with a G
     <li><a href="#贡献">贡献</a></li>
     <li><a href="#许可证">许可证</a></li>
     <li><a href="#联系我们">联系我们</a></li>
-    <li><a href="#致谢">致谢</a></li>
   </ol>
 </details>
 
-
-
 <!-- 关于本项目 -->
+
 ## 关于本项目
 
-[![产品截图][product-screenshot]](https://example.com)
+本项目是一款高效能、高可利用性、开源的一站式服务资源管理工具，旨在管理用户手下的所有服务器资源（虚拟主机或任何可执行资源），由xhc861开发，归属于SiiWay团队。
 
-GitHub 上有很多优秀的 README 模板，但我没找到一个适合我需求的，所以我创建了这个增强版。我想要创建一个 README 模板，它能优秀到成为你的最后一个 README 模板 —— 我认为这就是你所需要的。
-
-以下是原因：
-* 你应该把时间用在项目的「刀刃」上，也就是专注于解决问题本身上
-* 你不应该一遍又一遍地做重复的工作，比如每次都从头编写一个 README
-* 你应该在未来的生活中始终遵循 DRY 原则 :smile:
-
-当然，没有一个模板可以满足所有项目，因为你的需求可能与众不同。所以我们会在未来添加更多内容。你也可以通过复刻（fork）本仓库并且创建一个拉取请求（pull request）或者创建议题（issue）来向我们提出建议。感谢所有帮助我们扩充本模板的贡献者！
-
-使用 `BLANK_README_zh.md` 来开始。
+本项目的开端是因为诸多服务器的管理工具存在根本性问题，即没有客制化的参数，而让大多数运维人员“头疼”，走的是一条“死”的运维之路，没有切实的联通枢纽和协议，虽然简单的操作方式麻痹了用户，但多服务器之间的“桥梁”没有搭建好。这便是本项目解决的问题。本项目由3位初中生开发，故更新速度较慢。
 
 <p align="right">(<a href="#top">返回顶部</a>)</p>
 
+### 开发语言
 
+本项目开源，并且使用的套件和框架也开源。
 
-### 构建工具
-
-你应该在这里列出项目使用的主要框架或库。附加组件和插件则应该放在致谢一节中。下面是一些例子。
-
-* [Next.js](https://nextjs.org/)
-* [React.js](https://reactjs.org/)
-* [Vue.js](https://vuejs.org/)
-* [Angular](https://angular.io/)
-* [Svelte](https://svelte.dev/)
-* [Laravel](https://laravel.com)
-* [Bootstrap](https://getbootstrap.com)
-* [JQuery](https://jquery.com)
-
+<br />
+Q：为什么不用tomcat等来实现这些功能？
+<br />
+A：Java语言的JVM堆栈总内存占用过大，为了让本项目更轻量化，并且适应密码学和量子通讯（可选）。
+<br />
+<br />
+本项目在中小型服务器(4H12G)上测得的CPU占用为：
+<br />
+普通模式：1.4%(大约值)内存占用为89MB(精确值)
+<br />
+GUI模式（全栈）：3.1%(大约值)内存占用为492MB(精确值但会随GUI功能而变化，基准参数) 
+#### 语言
+* PHP(Ver.≥7.4)
+* Python(Ver.≥3.0)
+* Cpp
+* Vue.js
+* TypeScript
+* Cirq（仅量子通讯，可选功能）
 <p align="right">(<a href="#top">返回顶部</a>)</p>
-
-
 
 <!-- 开始 -->
+
 ## 开始
 
-这是一份在本地构建项目的指导的例子。
-要获取本地副本并且配置运行，你可以按照下面的示例步骤操作。
-
+欢迎安装SiiWay旗下的NR-Tool管理工具，在开始之前，我们推荐安装机器的配置至少为1H1G以便访问和使用。并且，我们推荐学习一些关于全栈运维的知识，以便出现问题时，第一时间分析并解决。
 ### 依赖
-
-这只是一个列出软件依赖和安装方法的例子。
-* npm
-  ```sh
-  npm install npm@latest -g
-  ```
-
+#### 管理机要求：
+* PHP，版本大于或等于7.4即可
+* Python，版本大于等于3.0即可任意环境均可
+* 其中，若您需要GUI环境，则需要安装node和npm，版本不限
+<br />
+服务/应用/集群机要求：
+* Python，版本大于等于3.0 即可，即可，即可！
 ### 安装
-
-_下面是一个指导你的受众如何安装和配置你的应用的例子。这个模板不需要任何外部依赖或服务。_
-
-1. 在 [https://example.com](https://example.com) 获取一个免费的 API Key。
-2. 克隆本仓库
-   ```sh
-   git clone https://github.com/your_username_/Project-Name.git
-   ```
-3. 安装 NPM 包
-   ```sh
-   npm install
-   ```
-4. 在 `config.js` 中填写你的 API
-   ```js
-   const API_KEY = '填写你的 API';
-   ```
-
+####对于只使用普通模式（命令行）的用户，双端无需安装，开箱即用，具体教程请查看《操作手册》
+<br />
+对于需要GUI的用户：
+<br />
+我们给出了两种安装方式，分别是：手动编译 和 使用安装文件。
+<br />
+Windows:
+<br />
+Windows版本
+```
+1.启动命令提示符（管理员）
+2.克隆或下载本项目
+3.cd（转到）本项目的根目录
+4.运行 python runser.py （管理机）
+*服务机（节点）安装，直接运行 python start.py即可
+```
+<br />
+Linux版本
+```
+1.启动命令提示符（管理员）
+2.克隆或下载本项目
+3.cd（转到）本项目的根目录
+4.运行 python runser.py （管理机）
+*服务机（节点）安装，直接运行 python start.py即可
+```
+<br />
+macOS版本
+####暂不支持，敬请期待
 <p align="right">(<a href="#top">返回顶部</a>)</p>
-
-
 
 <!-- 使用方法 示例 -->
+
 ## 使用方法
 
-在这里你可以展示项目的使用方法。把附加的截图、代码示例和演示放在这里也很不错。你也可以用链接引用其他资源。
-
-_转到 [文档](https://example.com) 查看更多示例_
+_转到 [文档](./使用手册.pdf) 查看更多示例_
 
 <p align="right">(<a href="#top">返回顶部</a>)</p>
-
-
 
 <!-- 路线图 -->
+
 ## 路线图
 
-- [x] 添加更新日志
-- [x] 添加「返回顶部」链接
-- [ ] 添加额外的模板和示例
-- [ ] 添加「组件」文档，以便更容易复制和粘贴各个部分
+- [x] 完善基本功能
+- [x] 更新日志
+- [ ] 量子通讯
+- [ ] 跨网络互通
+- [ ] 在MineCraft(MC)中管理服务节点？
+- [x] 在钉钉、邮箱、QQ机器人等地控制节点
 - [ ] 多语种支持
     - [x] 中文
-    - [ ] 西班牙语
+    - [ ] 英语
 
-到 [open issues](https://github.com/othneildrew/Best-README-Template/issues) 页查看所有请求的功能 （以及已知的问题）。
+想要更多功能？别着急，提交issue！
 
 <p align="right">(<a href="#top">返回顶部</a>)</p>
-
-
 
 <!-- 贡献 -->
+
 ## 贡献
 
-贡献让开源社区成为了一个非常适合学习、启发和创新的地方。你所做出的任何贡献都是**受人尊敬**的。
-
-如果你有好的建议，请复刻（fork）本仓库并且创建一个拉取请求（pull request）。你也可以简单地创建一个议题（issue），并且添加标签「enhancement」。不要忘记给项目点一个 star！再次感谢！
-
-1. 复刻（Fork）本项目
-2. 创建你的 Feature 分支 (`git checkout -b feature/AmazingFeature`)
-3. 提交你的变更 (`git commit -m 'Add some AmazingFeature'`)
-4. 推送到该分支 (`git push origin feature/AmazingFeature`)
-5. 创建一个拉取请求（Pull Request）
-
+贡献让开源社区成为了一个非常适合学习、启发和创新的地方。你所做出的任何贡献都是**受人尊敬**的。如果你有好的建议，请复刻（fork）本仓库并且创建一个拉取请求（pull request）。你也可以简单地创建一个议题（issue），并且添加标签「enhancement」。不要忘记给项目点一个 star！再次感谢！SiiWay团队倾力打造，本项目由3位初中生携手铸作。
 <p align="right">(<a href="#top">返回顶部</a>)</p>
 
-
-
 <!-- 许可证 -->
+
 ## 许可证
 
 根据 MIT 许可证分发。打开 [LICENSE.txt](LICENSE.txt) 查看更多内容。
-
-
 <p align="right">(<a href="#top">返回顶部</a>)</p>
-
-
 
 <!-- 联系我们 -->
+
 ## 联系我们
-
-你的名字 - [@your_twitter](https://twitter.com/your_username) - email@example.com
-
-项目链接: [https://github.com/your_username/repo_name](https://github.com/your_username/repo_name)
-
-<p align="right">(<a href="#top">返回顶部</a>)</p>
-
-
-
-<!-- 致谢 -->
-## 致谢
-
-在这里列出你觉得有用的资源，并以此致谢。我已经添加了一些我喜欢的资源，以便你可以快速开始！
-
-* [Choose an Open Source License](https://choosealicense.com)
-* [GitHub Emoji Cheat Sheet](https://www.webpagefx.com/tools/emoji-cheat-sheet)
-* [Malven's Flexbox Cheatsheet](https://flexbox.malven.co/)
-* [Malven's Grid Cheatsheet](https://grid.malven.co/)
-* [Img Shields](https://shields.io)
-* [GitHub Pages](https://pages.github.com)
-* [Font Awesome](https://fontawesome.com)
-* [React Icons](https://react-icons.github.io/react-icons/search)
-
-<p align="right">(<a href="#top">返回顶部</a>)</p>
-
-
-
-<!-- MARKDOWN 链接 & 图片 -->
-<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/BreakingAwful/Best-README-Template-zh.svg?style=for-the-badge
-[contributors-url]: https://github.com/BreakingAwful/Best-README-Template-zh/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/BreakingAwful/Best-README-Template-zh.svg?style=for-the-badge
-[forks-url]: https://github.com/BreakingAwful/Best-README-Template-zh/network/members
-[stars-shield]: https://img.shields.io/github/stars/BreakingAwful/Best-README-Template-zh.svg?style=for-the-badge
-[stars-url]: https://github.com/BreakingAwful/Best-README-Template-zh/stargazers
-[issues-shield]: https://img.shields.io/github/issues/BreakingAwful/Best-README-Template-zh.svg?style=for-the-badge
-[issues-url]: https://github.com/BreakingAwful/Best-README-Template-zh/issues
-[license-shield]: https://img.shields.io/github/license/BreakingAwful/Best-README-Template-zh.svg?style=for-the-badge
-[license-url]: https://github.com/BreakingAwful/Best-README-Template-zh/blob/master/LICENSE.txt
-[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: https://linkedin.com/in/othneildrew
-[product-screenshot]: images/screenshot.png
-
+SiiWay团队官方网站：[SiiWay_Home](https://siiway.top) SiiWay交流群：947429526 开发者:xhc861@github | wyf9@github | Dobastickrn@github <br />赞助商：Not Found <p align="right">(<a href="#top">返回顶部</a>)</p>
