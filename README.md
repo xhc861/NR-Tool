@@ -13,7 +13,7 @@ This tool can manage all your servers (including web hosting) and comes with a G
 
 <br />
 <div align="center">
-  <a href="https://github.com/othneildrew/Best-README-Template">
+  <a href="https://github.com/xhc861/NR-Tool">
     <img src=".NR/NR-Tool.png" alt="Logo" width="80" height="80">
   </a>
 
